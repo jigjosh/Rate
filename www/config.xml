@@ -109,7 +109,7 @@
 
 
         <gap:plugin name="org.apache.cordova.battery-status" />
-        <gap:plugin name="org.apache.cordova.splashscreen" />
+        <!--gap:plugin name="org.apache.cordova.splashscreen" /-->
         <gap:plugin name="org.apache.cordova.network-information" />
         <gap:plugin name="cordova-plugin-file" source="npm" />
         <!--<feature name="http://api.phonegap.com/1.0/network"/>        
