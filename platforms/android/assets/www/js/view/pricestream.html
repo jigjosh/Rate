@@ -1,0 +1,85 @@
+<div ng-controller="pricestreamController">
+    <div class="app-price-header">
+        <div class="title-price-img"></div>
+    </div>
+    <div class="app-price-content">
+        <ion-content scroll="false">
+            <div class="price-region">
+
+                <div class="row price-header-row">
+                    <div class="col col-75">
+                    </div>
+                    <div class="col item-rate" style="text-align: right">
+                        <div>AED</div>
+                    </div>
+                </div>
+
+                <ion-list>
+                    <ion-item ng-repeat="item in items" class="price-row">
+                        <div class="row pricestream-row">
+                            <div class="pricestream-col col col-75 golditem-text" ng-style="{'background-color': item.bgitem, 'color': item.coloritem}">
+                                <div class="item-cap">{{item.Name}}</div>
+                                <div class=" btn-circle" ng-click="openModal($index)"><i class="ion-aperture"></i></div>
+                            </div>
+                            <div class="col numbertext" ng-style="{'background-color': item.bgrate, 'color': item.colorrate}">
+                                <div class="item-rate">{{item.Rate}}</div>
+                            </div>
+                        </div>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </ion-content>
+    </div>
+    <div class="app-footer">
+        <div class="row">
+            <div class="col-33">
+                <a class="button rate-button" ui-sref="aboutus">
+                    <p>ABOUT US</p>
+                </a>
+            </div>
+            <div class="col-33">
+                <a class="button rate-button" ui-sref="delivery">
+                    <p>DELIVERY</p>
+                </a>
+            </div>
+            <div class="col-33">
+                <a class="button rate-button" ui-sref="termsandcondition">
+                    <p id="terms">TERMS & CONDITIONS</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-33">
+                <a class="button rate-button" ui-sref="#">
+                    <p>PAY LATER</p>
+                </a>
+            </div>
+            <div class="col-33">
+                <a class="button rate-button" ui-sref="buyback">
+                    <p>BUY BACK</p>
+                </a>
+            </div>
+            <div class="col-33">
+                <a class="button rate-button" href="tel:+971 4 3380909">
+                    <img src="img/call-us.png" class="callus">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script id="img-modal.html" type="text/ng-template">
+        <ion-modal-view class="modal" ng-click="modal.hide()" >
+            <ion-content>
+                <div class="item-image" 
+                     style="background-image: url(img/ProductImage/{{items[currentIndex].image}});
+                            border: 2px solid #000000;
+                            background-size: 90% 90%;
+                            background-repeat: no-repeat;
+                            background-position: center;"></div>
+            </ion-content>
+            
+        </ion-modal-view>
+    </script>
+</div>
