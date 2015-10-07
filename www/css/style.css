@@ -1,0 +1,654 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+    font-family: 'gillsans';
+    font-style: normal;
+    src: url('../font/ARIAL.ttf') format('truetype');
+}
+
+#terms {
+    margin-top: 4px;
+}
+
+.zoom-pane {
+    width: 100%;
+    height: 100%;
+}
+
+.zoom-pane .scroll {
+    min-height: 100%;
+    /* Vertical align */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: decimal !important;
+}
+
+.callus {
+    margin-top: 5px;
+}
+
+.app-base {
+    position: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.app-header {
+    height: 28%;
+    background-color: #000000
+}
+
+.app-content {
+    background-image: url(../img/pricebg.png);
+    height: 52%;
+    /* start height */
+    background-size: 100% 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.app-footer {
+    height: 20%;
+    background-color: #000000;
+}
+
+.app-price-header {
+    height: 15%;
+    background-color: #000000
+}
+
+.app-price-content {
+    background-image: url(../img/pricebg.png);
+    height: 65%;
+    /* start height */
+    background-size: 100% 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.title-price-img {
+    background-image: url(../img/emperesse.png);
+    height: 100%;
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-img {
+    background-image: url(../img/emperesse.png);
+    height: 100%;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scroll-content {
+    position: relative;
+}
+
+.text-content {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.4em;
+    font-family: sans-serif;
+    height: 100%;
+    /*height: 660px;*/
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.overflow-scroll {
+    overflow-y: auto !important;
+}
+
+.text-content span {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+.rate-button {
+    width: 90%;
+    margin: 2px;
+    padding: 2px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 2px solid #FFFFFF;
+    background-color: #d4b351;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiM4YjVjMjUiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2I2ODUzNCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMSIvPjxzdG9wIHN0b3AtY29sb3I9IiNmOWVhNzIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjQ3OSIvPjxzdG9wIHN0b3AtY29sb3I9IiNmOWVhNzIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUzNiIvPjxzdG9wIHN0b3AtY29sb3I9IiNmOWVhNzIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUzNiIvPjxzdG9wIHN0b3AtY29sb3I9IiNiNjg1MzQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0, rgb(139, 92, 37)), color-stop(0.1, rgb(182, 133, 52)), color-stop(0.479, rgb(249, 234, 114)), color-stop(0.536, rgb(249, 234, 114)), color-stop(0.536, rgb(249, 234, 114)), color-stop(1, rgb(182, 133, 52)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(90deg, rgb(139, 92, 37) 0%, rgb(182, 133, 52) 10%, rgb(249, 234, 114) 47.9%, rgb(249, 234, 114) 53.6%, rgb(249, 234, 114) 53.6%, rgb(182, 133, 52) 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(0deg, rgb(139, 92, 37) 0%, rgb(182, 133, 52) 10%, rgb(249, 234, 114) 47.9%, rgb(249, 234, 114) 53.6%, rgb(249, 234, 114) 53.6%, rgb(182, 133, 52) 100%);
+    background-image: -ms-repeating-linear-gradient(90deg, rgb(139, 92, 37) 0%, rgb(182, 133, 52) 10%, rgb(249, 234, 114) 47.9%, rgb(249, 234, 114) 53.6%, rgb(249, 234, 114) 53.6%, rgb(182, 133, 52) 100%);
+}
+
+
+/* IE8- CSS hack */
+
+.rate-button p {
+    margin-top: 10px;
+    font-family: gillsans;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.10em;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+}
+
+.pricestream-row {
+    padding: 0px;
+    height: 100%;
+}
+
+.pricestream-col {
+    padding: 2px;
+    align-content: center;
+}
+
+.price-grid {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+
+.price-row {
+    Margin: 0px 10px;
+    border: 0px;
+}
+
+.golditem-text {
+    border-bottom: 2px solid;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.item-cap {
+    text-align: left;
+    float: left;
+}
+
+.numbertext {
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: middle;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    padding: 5px 0;
+}
+
+.item-rate {
+    vertical-align: sub;
+    line-height: normal;
+    padding: 0px 5px;
+}
+
+.btn-circle {
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-color: #d4b351;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.item-image {
+    width: 240px;
+    height: 240px;
+}
+@media only screen and (max-height: 2000px) {
+    .text-content {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 65px;
+        font-size: 30px;
+    }
+    .text-content span {
+        margin-top: 34px;
+        font-size: 38px;
+    }
+    .rate-button {
+        margin: 5px;
+        padding: 5px;
+        height: 104px;
+    }
+    .rate-button p {
+        margin-top: 34px;
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .callus {
+        height: 72px;
+        width: 72px;
+        margin-top: 10px;
+    }
+    /* price strem*/
+    .price-region {
+        padding: 60px;
+    }
+    .price-header-row {
+        height: 50px;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .item {
+        padding: 0px;
+        font-size: 34px;
+        height: 90px;
+    }
+    .item-cap {
+        font-size: 36px;
+        padding: 20px 5px;
+        font-weight: bold;
+    }
+    .item-rate {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .numbertext {
+        font-size: 36px font-weight: bold;
+    }
+    .btn-circle {
+        width: 80px;
+        height: 80px;
+        font-size: 78px;
+    }
+}
+
+@media only screen and (max-height: 1281px) {
+    .text-content {
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 42px;
+        font-size: 19px;
+    }
+    .text-content span {
+        margin-top: 22px;
+        font-size: 24px;
+    }
+    .rate-button {
+        margin: 3px;
+        padding: 3px;
+        height: 66px;
+    }
+    .rate-button p {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .callus {
+        height: 46px;
+        width: 46px;
+        margin-top: 6px;
+    }
+    /* price strem*/
+    .price-region {
+        padding: 38px;
+    }
+    .price-header-row {
+        height: 32px;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .item {
+        padding: 0px;
+        font-size: 22px;
+        height: 58px;
+    }
+    .item-cap {
+        font-size: 23px;
+        padding: 13px 3px;
+        font-weight: bold;
+    }
+    .item-rate {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .numbertext {
+        font-size: 23px font-weight: bold;
+    }
+     .btn-circle {
+        width: 50px;
+        height: 50px;
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-height: 979px) {
+    .text-content {
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 32px;
+        font-size: 14px;
+    }
+    .text-content span {
+        margin-top: 16px;
+        font-size: 20px;
+    }
+    .rate-button {
+        margin: 3px;
+        padding: 3px;
+        height: 52px;
+    }
+    .rate-button p {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .callus {
+        height: 34px;
+        width: 34px;
+        margin-top: 6px;
+    }
+    /* price strem*/
+    .price-region {
+        padding: 28px;
+    }
+    .price-header-row {
+        height: 24px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .item {
+        padding: 0px;
+        font-size: 16px;
+        height: 44px;
+    }
+    .item-cap {
+        font-size: 18px;
+        padding: 10px 2px;
+        font-weight: bold;
+    }
+    .item-rate {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .numbertext {
+        font-size: 18px font-weight: bold;
+    }
+    .btn-circle {
+        width: 40px;
+        height: 40px;
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-height: 766px) {
+    .text-content {
+        padding-top: 19px;
+        padding-left: 19px;
+        padding-right: 19px;
+        padding-bottom: 25px;
+        font-size: 11px;
+    }
+    .text-content span {
+        margin-top: 13px;
+        font-size: 15px;
+    }
+    .rate-button {
+        margin: 2px;
+        padding: 2px;
+        height: 40px;
+    }
+    .button {
+        min-height: 40px;
+    }
+    .rate-button p {
+        margin-top: 13px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .app-footer {
+        padding-top: 2px;
+    }
+    .callus {
+        height: 28px;
+        width: 28px;
+        margin-top: 4px;
+    }
+    /* price strem*/
+    .price-region {
+        padding: 23px;
+    }
+    .price-header-row {
+        height: 19px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .item {
+        padding: 0px;
+        font-size: 13px;
+        height: 26px;
+    }
+    .item-cap {
+        font-size: 12px;
+        padding: 2px 2px;
+        font-weight: bold;
+    }
+    .item-rate {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .numbertext {
+        font-size: 14px font-weight: bold;
+    }
+    .btn-circle {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .btn-circle {
+        width: 22px;
+        height: 22px;
+        font-size: 20px;
+    }
+}
+
+
+/* IPAD */
+
+@media only screen and (height: 1024px) {
+    .text-content {
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 32px;
+        font-size: 24px;
+    }
+    .text-content span {
+        margin-top: 17px;
+        font-size: 28px;
+    }
+    .rate-button {
+        margin: 2px;
+        padding: 2px;
+        height: 66px;
+    }
+    .button {
+        min-height: 66px;
+    }
+    .rate-button p {
+        margin-top: 16px;
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .app-footer {
+        padding-top: 20px;
+    }
+    .callus {
+        height: 40px;
+        width: 40px;
+        margin-top: 12px;
+    }
+    /* price strem*/
+    .price-region {
+        padding: 31px;
+    }
+    .price-header-row {
+        height: 25px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .item {
+        padding: 0px;
+        font-size: 17px;
+        height: 45px;
+    }
+    .item-cap {
+        font-size: 17px;
+        padding: 10px 5px;
+        font-weight: bold;
+    }
+    .item-rate {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .numbertext {
+        font-size: 17px font-weight: bold;
+    }
+    .btn-circle {
+        width: 40px;
+        height: 40px;
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-height: 480px) {
+    .text-content {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 19px;
+        font-size: 12px;
+    }
+    .text-content span {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .rate-button {
+        margin: 2px;
+        padding: 1px;
+        height: 26px;
+    }
+    .rate-button p {
+        margin-top: 6px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .callus {
+        height: 18px;
+        width: 18px;
+        margin-top: 2px;
+        line-height: 8px;
+    }
+    .button {
+        min-height: 26px;
+    }
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-height: 320px) {
+    .text-content {
+        padding-top: 9px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-bottom: 12px;
+        font-size: 8px;
+    }
+    .text-content span {
+        margin-top: 6px;
+        font-size: 7px;
+        color: pink;
+    }
+    .rate-button {
+        margin: 1px;
+        padding: 1px;
+        height: 30px;
+        min-height: 30px;
+    }
+    .button {
+        min-height: 26px;
+    }
+    .rate-button p {
+        margin-top: 6px;
+        font-size: 6px;
+        line-height: 12px;
+    }
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-height: 120px) {
+    .text-content span {
+        color: brown;
+    }
+}
