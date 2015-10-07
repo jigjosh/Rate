@@ -23,7 +23,7 @@
         <!--gap:splash src="resources/android/splash/drawable-ldpi/screen.png"  gap:platform="android" gap:density="ldpi" />
         <gap:splash src="resources/android/splash/drawable-mdpi/screen.png"  gap:platform="android" gap:density="mdpi" />
         <gap:splash src="resources/android/splash/drawable-hdpi/screen.png"  gap:platform="android" gap:density="hdpi" />
-        <gap:splash src="resources/android/splash/drawable-xhdpi/screen.png"  gap:platform="android" gap:density="xhdpi" /-->
+        <gap:splash src="resources/android/splash/drawable-xhdpi/screen.png"  gap:platform="android" gap:density="xhdpi" />
         <gap:splash src="resources/ios/screens/Default~iphone.png"                  gap:platform="ios"     width="320" height="480" />
         <gap:splash src="resources/ios/screens/Default@2x~iphone_640x960.png"       gap:platform="ios"     width="640" height="960" />
         <gap:splash src="resources/ios/screens/Default-568h@2x~iphone_640x1136.png" gap:platform="ios"     width="640" height="1136" />
@@ -39,9 +39,10 @@
         <gap:splash src="resources/ios/screens/Default-Portrait~ipad_768x1024.png" gap:platform="ios"    width="768" height="1024"/>
         <gap:splash src="resources/ios/screens/Default-1242@3x~iphone6s-landscape_2208x1242.png" gap:platform="ios"     width="2208" height="1242"/>
         <gap:splash src="resources/ios/screens/Default-Landscape@2x~ipad_2048x1496.png" gap:platform="ios"     width="2048" height="1496"/>
-        <gap:splash src="resources/ios/screens/Default-Landscape@2x~ipad_2048x1536.png" gap:platform="ios"     width="2048" height="1536"/>
+        <gap:splash src="resources/ios/screens/Default-Landscape@2x~ipad_2048x1536.png" gap:platform="ios"     width="2048" height="1536"/-->
         
         <gap:splash src="splash.png" />
+        
         
 
         <gap:platform name="ios" />
