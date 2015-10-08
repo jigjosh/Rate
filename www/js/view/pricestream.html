@@ -19,7 +19,7 @@
                         <div class="row pricestream-row">
                             <div class="pricestream-col col col-75 golditem-text" ng-style="{'background-color': item.bgitem, 'color': item.coloritem}">
                                 <div class="item-cap">{{item.Name}}</div>
-                                <div class=" btn-circle" ng-click="openModal($index)"><i class="ion-aperture"></i></div>
+                                <div class="btn-circle" ng-click="openModal($index)"><i class="ion-aperture"></i></div>
                             </div>
                             <div class="col numbertext" ng-style="{'background-color': item.bgrate, 'color': item.colorrate}">
                                 <div class="item-rate">{{item.Rate}}</div>
@@ -76,15 +76,10 @@
                 <div class="title-price-img"></div>
             </div>
             <div class="app-price-content">
-                <img  ng-src="img/ProductImage/{{items[currentIndex].image}" 
-                    style=" max-height: 90%;max-width: 90%;margin: 20px;"/>
-                <!--div class="item-image" style="background-image: url(img/ProductImage/{{items[currentIndex].image}});
-                            border: 2px solid #000000;
-                            background-size: cover;
-                            max-width:100%;
-                            max-height:100%;
+                <div class="item-rate-image" style="background-image: url(img/ProductImage/{{items[currentIndex].image}});
+                            background-size: 80%;
                             background-repeat: no-repeat;
-                            background-position: center;"></div-->
+                            background-position: center;"></div>
             </div>
 
         </ion-modal-view>

@@ -254,13 +254,14 @@ ul {
     vertical-align: middle;
 }
 
-/*
-.item-image {
-    width: 240px;
-    height: 240px;
+
+.item-rate-image {
+    width: 100%;
+    height: 100vh;
 }
-*/
+
 @media only screen and (max-height: 2000px) {
+    
     .text-content {
         padding-top: 50px;
         padding-left: 50px;
