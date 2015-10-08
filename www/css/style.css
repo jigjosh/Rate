@@ -271,7 +271,70 @@ ul {
     height: 100vh;
 }
 
-@media only screen and (max-height: 2000px) {
+@media only screen and (max-height: 3000px) {
+    
+    .text-content {
+        padding-top: 75px;
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-bottom: 97px;
+        font-size: 45px;
+    }
+    .text-content span {
+        margin-top: 51px;
+        font-size: 57px;
+    }
+    .rate-button {
+        margin: 7px;
+        padding: 7px;
+        height: 156px;
+    }
+    .rate-button p {
+        margin-top: 51px;
+        font-size: 39px;
+        line-height: 63px;
+    }
+    .callus {
+        height: 108px;
+        width: 108px;
+        margin-top: 15px;
+    }
+    /* price strem*/
+    .price-region {
+        padding: 90px;
+    }
+    .price-header-row {
+        height: 75px;
+        font-size: 54px;
+        font-weight: bold;
+    }
+    .item {
+        padding: 0px;
+        font-size: 51px;
+        height: 135px;
+    }
+    .item-cap {
+        font-size: 54px;
+        padding: 30px 7px;
+        font-weight: bold;
+    }
+    .item-rate {
+        font-size: 54px;
+        font-weight: bold;
+    }
+    .numbertext {
+        font-size: 54px font-weight: bold;
+    }
+    .btn-circle {
+        width: 120px;
+        height: 120px;
+        font-size: 117px;
+    }
+}
+
+
+
+@media only screen and (max-height: 2800px) {
     
     .text-content {
         padding-top: 50px;
@@ -331,6 +394,8 @@ ul {
         font-size: 78px;
     }
 }
+
+
 
 @media only screen and (max-height: 1281px) {
     .text-content {
