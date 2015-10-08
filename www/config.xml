@@ -75,8 +75,8 @@
         <gap:splash src="splash.png" />
 
         <gap:platform name="android" />
-        <!--gap:platform name="ios" />
-        <gap:platform name="winphone" /-->
+        <gap:platform name="ios" />
+        <!--gap:platform name="winphone" /-->
 
         <!-- GENERAL PREFERENCES -->
 
