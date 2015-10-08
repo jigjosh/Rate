@@ -98,6 +98,17 @@ ul {
     overflow: hidden;
 }
 
+.app-price-image-content {
+    background-image: url(../img/pricebg.png);
+    height: 100%;
+    /* start height */
+    background-size: 100% 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
 .title-price-img {
     background-image: url(../img/emperesse.png);
     height: 100%;
