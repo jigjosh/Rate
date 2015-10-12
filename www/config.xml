@@ -72,7 +72,7 @@
             <splash src="resources/ios/screens/Default-1242@3x~iphone6s-landscape_2208x1242.png" width="2208" height="1242" />
         </platform>
 
-        <!--gap:splash src="splash.png" /-->
+        <gap:splash src="splash.png" />
 
         <gap:platform name="android" />
         <gap:platform name="ios" />

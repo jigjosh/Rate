@@ -43,6 +43,10 @@
                 url: "/delivery",
                 templateUrl: 'js/view/delivery.html'
             }).
+            state('paylater', {
+                url: "/paylater",
+                templateUrl: 'js/view/paylater.html'
+            }).
             state('termsandcondition', {
                 url: "/termsandcondition",
                 templateUrl: 'js/view/termsandcondition.html'
