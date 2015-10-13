@@ -134,7 +134,7 @@
                     "bgrate": "wheat",
                     "colorrate": "#000000",
                     "Type": "1",
-                    "image": ""
+                    "image": "1_KG_GOLD_BAR.png"
 
                 }
                 ,
@@ -150,7 +150,7 @@
                     "bgrate": "wheat",
                     "colorrate": "#000000",
                     "Type": "1",
-                    "image": "TT BAR.png"
+                    "image": "TT_BAR.png"
                 },
                 {
                     "Name": "100 GM RECTANGLE BAR",
@@ -192,7 +192,7 @@
                     "bgrate": "wheat",
                     "colorrate": "#000000",
                     "Type": "1",
-                    "image": ""
+                    "image": "1OZ_GOLD_03.png"
         },
                 {
                     "Name": "20 GM RECTANGLE BAR",
@@ -249,7 +249,7 @@
                     "bgrate": "wheat",
                     "colorrate": "#000000",
                     "Type": "1",
-                    "image": ""
+                    "image": "2_5g_GOLD_03.png"
 
         },
                 {
