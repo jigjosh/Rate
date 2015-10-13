@@ -112,7 +112,7 @@
         <preference name="ShowSplashScreenSpinner" value="false"/>
 
         <gap:plugin name="org.apache.cordova.battery-status" />
-        <gap:plugin name="org.apache.cordova.splashscreen" />
+        <gap:plugin name="cordova-plugin-splashscreen" version="2.1.0" source="npm" />
         <gap:plugin name="org.apache.cordova.network-information" />
         <gap:plugin name="cordova-plugin-file" source="npm" />
         <!--<feature name="http://api.phonegap.com/1.0/network"/>        
