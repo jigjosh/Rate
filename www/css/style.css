@@ -267,8 +267,20 @@ ul {
 
 
 .item-rate-image {
-    width: 100vw;
-    height: 100vh;
+
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #000000;
+
+    /*width: 100vw;
+    height: 100vh;*/
 }
 
 @media only screen and (max-height: 3000px) {
