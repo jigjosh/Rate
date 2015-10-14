@@ -277,7 +277,7 @@
                     "bgrate": "wheat",
                     "colorrate": "#000000",
                     "Type": "1",
-                    "image": "1_KG_GOLD_BAR.png"
+                    "image": "8_GM_22_K_GOLD_COIN.png"
 
                 },
                 {
