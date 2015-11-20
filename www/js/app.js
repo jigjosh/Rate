@@ -123,7 +123,7 @@
             $scope.margindata = {};
             $scope.items = [
                 {
-                    "Name": "1 GM RECTANGLE BAR",
+                    "Name": "1 GM GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 1,
@@ -137,7 +137,7 @@
                     "image": "1-GM-GOLD-BAR.png"
         },
                 {
-                    "Name": "2.5 GM RECTANGLE BAR",
+                    "Name": "2.5  GM GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 2.5,
@@ -152,7 +152,7 @@
 
         },
                 {
-                    "Name": "5 GM RECTANGLE BAR",
+                    "Name": "5 GM GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 5,
@@ -167,7 +167,7 @@
 
         },
                 {
-                    "Name": "10 GM RECTANGLE BAR",
+                    "Name": "10 GM GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 10,
@@ -181,7 +181,7 @@
                     "image": "10g_GOLD_01.png"
         },
                 {
-                    "Name": "20 GM RECTANGLE BAR",
+                    "Name": "20 GM GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 20,
@@ -195,7 +195,7 @@
                     "image": "20g_GOLD_04.png"
         },
                 {
-                    "Name": "50 GM RECTANGLE BAR",
+                    "Name": "50 GM GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 50,
@@ -209,7 +209,7 @@
                     "image": "50g_Gold_03.png"
         },
                 {
-                    "Name": "100 GM RECTANGLE BAR",
+                    "Name": "100 GM GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 100,
@@ -223,7 +223,7 @@
                     "image": "100g_LIVELLI.png"
         },
                 {
-                    "Name": "1 OUNCE RECTANGLE BAR",
+                    "Name": "1 OZ GOLD BAR 999.9 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 31.1034,
@@ -237,7 +237,7 @@
                     "image": "1OZ_GOLD_03.png"
         },
                 {
-                    "Name": "TT BAR",
+                    "Name": "TEN TOLA GOLD BAR 999 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 116.52336,
@@ -251,7 +251,7 @@
                     "image": "TT_BAR.png"
                 },
                 {
-                    "Name": "KILO BAR 995",
+                    "Name": "1 KG GOLD BAR 995 PURITY",
                     "UOMConFactor": 31.1034,
                     "USDExRate": 3.674,
                     "Weight": 995,
@@ -281,7 +281,7 @@
 
                 },
                 {
-                    "Name": "SILVER KILO BAR 999",
+                    "Name": "I KG SILVER BAR 995 PURITY",
                     "UOMConFactor": 1,
                     "USDExRate": 3.674,
                     "Weight": 32.15,
@@ -297,7 +297,7 @@
     ];
 
             Firebase.INTERNAL.forceWebSockets();
-            var ref = new Firebase("https://wingoldnext.firebaseio.com/path/margin");
+            var ref = new Firebase("https://wingoldnext.firebaseio.com/path/retailmargin");
             ref.on("value", function (snapshot) {
                 var obj;
                 angular.forEach(snapshot.val(), function (value) {

@@ -108,11 +108,10 @@ ul {
 }
 
 
-
 .title-price-img {
     background-image: url(../img/emperesse.png);
     height: 100%;
-    background-size: 50% 90%;
+    background-size: 80% 80%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -283,6 +282,14 @@ ul {
     height: 100vh;*/
 }
 
+
+.img-cap {
+    font-size: 18px;
+    padding: 2px 2px;
+    font-weight: bold;
+}
+
+
 @media only screen and (max-height: 3000px) {
     
     .text-content {
@@ -332,6 +339,11 @@ ul {
     }
     .item-rate {
         font-size: 54px;
+        font-weight: bold;
+    }
+    .img-cap {
+        font-size: 32px;
+        padding: 8px 8px;
         font-weight: bold;
     }
     .numbertext {
@@ -400,6 +412,11 @@ ul {
     .numbertext {
         font-size: 36px font-weight: bold;
     }
+    .img-cap {
+        font-size: 30px;
+        padding: 8px 8px;
+        font-weight: bold;
+    }
     .btn-circle {
         width: 80px;
         height: 80px;
@@ -459,6 +476,11 @@ ul {
         font-size: 23px;
         font-weight: bold;
     }
+    .img-cap {
+        font-size: 18px;
+        padding: 2px 2px;
+        font-weight: bold;
+    }
     .numbertext {
         font-size: 23px font-weight: bold;
     }
@@ -510,6 +532,11 @@ ul {
         font-size: 16px;
         height: 44px;
     }
+    .img-cap {
+        font-size: 18px;
+        padding: 2px 2px;
+        font-weight: bold;
+    }
     .item-cap {
         font-size: 18px;
         padding: 10px 2px;
@@ -517,6 +544,11 @@ ul {
     }
     .item-rate {
         font-size: 18px;
+        font-weight: bold;
+    }
+     .img-cap {
+        font-size: 14px;
+        padding: 2px 2px;
         font-weight: bold;
     }
     .numbertext {
@@ -574,10 +606,10 @@ ul {
     .item {
         padding: 0px;
         font-size: 13px;
-        height: 26px;
+        height: 28px;
     }
     .item-cap {
-        font-size: 12px;
+        font-size: 11px;
         padding: 2px 2px;
         font-weight: bold;
     }
@@ -587,6 +619,11 @@ ul {
     }
     .numbertext {
         font-size: 14px font-weight: bold;
+    }
+     .img-cap {
+        font-size: 11px;
+        padding: 1px 1px;
+        font-weight: bold;
     }
     .btn-circle {
         width: 50px;
@@ -657,6 +694,11 @@ ul {
     }
     .item-rate {
         font-size: 17px;
+        font-weight: bold;
+    }
+    .img-cap {
+        font-size: 17px;
+        padding: 1px 1px;
         font-weight: bold;
     }
     .numbertext {

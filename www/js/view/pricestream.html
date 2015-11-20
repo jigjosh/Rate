@@ -19,7 +19,11 @@
                         <div class="row pricestream-row">
                             <div class="pricestream-col col col-75 golditem-text" ng-style="{'background-color': item.bgitem, 'color': item.coloritem}">
                                 <div class="item-cap">{{item.Name}}</div>
-                                <div class="btn-circle" ng-click="openModal($index)"><i class="ion-aperture"></i></div>
+                                <div class="btn-circle" ng-click="openModal($index)">
+                                    <div class="img-cap">SEE</div>
+                                    <div class="img-cap">PIC</div>
+                                    <!--i class="ion-aperture"></i-->
+                                </div>
                             </div>
                             <div class="col numbertext" ng-style="{'background-color': item.bgrate, 'color': item.colorrate}">
                                 <div class="item-rate">{{item.Rate}}</div>
