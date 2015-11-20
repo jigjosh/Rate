@@ -414,7 +414,7 @@ ul {
     }
     .img-cap {
         font-size: 30px;
-        padding: 8px 8px;
+        padding: 30px 15px;
         font-weight: bold;
     }
     .btn-circle {
@@ -478,7 +478,7 @@ ul {
     }
     .img-cap {
         font-size: 18px;
-        padding: 2px 2px;
+        padding: 16px 10px;
         font-weight: bold;
     }
     .numbertext {
@@ -596,7 +596,7 @@ ul {
     }
     /* price strem*/
     .price-region {
-        padding: 23px;
+        padding: 4px 20px;
     }
     .price-header-row {
         height: 19px;
@@ -675,7 +675,7 @@ ul {
     }
     /* price strem*/
     .price-region {
-        padding: 31px;
+        padding: 40px 100px;
     }
     .price-header-row {
         height: 25px;
@@ -697,8 +697,8 @@ ul {
         font-weight: bold;
     }
     .img-cap {
-        font-size: 17px;
-        padding: 1px 1px;
+        font-size: 18px;
+        padding: 10px 5px;
         font-weight: bold;
     }
     .numbertext {

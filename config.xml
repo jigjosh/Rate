@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="ae.Emperesse.rate" version="1.1.0" versionCode="1">
+  <name>EMPERESSERATE</name>
+  <description>
+            EMPERESSE RATE
+        </description>
+  <author href="http://webmastersdubai.com/" email="support@webmastersdubai.com">Kehul Shah</author>
+  <content src="index.html"/>
+  <icon src="icon.png"/>
+  <platform name="android">
+    <splash src="resources\android\splash\drawable-port-ldpi-screen.png" density="port-ldpi"/>
+    <splash src="resources\android\splash\drawable-port-mdpi-screen.png" density="port-mdpi"/>
+    <splash src="resources\android\splash\drawable-port-hdpi-screen.png" density="port-hdpi"/>
+    <splash src="resources\android\splash\drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
+    <splash src="resources\android\splash\drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
+    <splash src="resources\android\splash\drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+  </platform>
+  <platform name="ios">
+    <splash src="resources/ios/screens/Default~iphone.png" width="320" height="480"/>
+    <splash src="resources/ios/screens/Default@2x~iphone_640x960.png" width="640" height="960"/>
+    <splash src="resources/ios/screens/Default-Portrait~ipad_768x1024.png" width="768" height="1024"/>
+    <splash src="resources/ios/screens/Default-Portrait@2x~ipad_1536x2008.png" width="1536" height="2048"/>
+    <splash src="resources/ios/screens/Default-Landscape~ipad_1024x768.png" width="1024" height="768"/>
+    <splash src="resources/ios/screens/Default-Landscape@2x~ipad_2048x1536.png" width="2048" height="1536"/>
+    <splash src="resources/ios/screens/Default-568h@2x~iphone_640x1136.png" width="640" height="1136"/>
+    <splash src="resources/ios/screens/Default-750@2x~iphone6-portrait_750x1334.png" width="750" height="1334"/>
+    <splash src="resources/ios/screens/Default-1242@3x~iphone6s-portrait_1242x2208.png" width="1242" height="2208"/>
+    <splash src="resources/ios/screens/Default-1242@3x~iphone6s-landscape_2208x1242.png" width="2208" height="1242"/>
+  </platform>
+  <gap:splash src="splash.png"/>
+  <gap:platform name="android"/>
+  <gap:platform name="ios"/>
+  <preference name="phonegap-version" value="cli-5.2.0"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="orientation" value="portrait"/>
+  <preference name="fullscreen" value="true"/>
+  <preference name="target-device" value="universal"/>
+  <preference name="prerendered-icon" value="true"/>
+  <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="detect-data-types" value="false"/>
+  <preference name="exit-on-suspend" value="false"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="stay-in-webview" value="false"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashScreenDelay" value="3000"/>
+  <preference name="SplashMaintainAspectRatio" value="true"/>
+  <preference name="FadeSplashScreen" value="false"/>
+  <preference name="FadeSplashScreenDuration" value="3000"/>
+  <preference name="ShowSplashScreenSpinner" value="false"/>
+  <gap:plugin name="org.apache.cordova.battery-status"/>
+  <gap:plugin name="cordova-plugin-splashscreen" version="2.1.0" source="npm"/>
+  <gap:plugin name="org.apache.cordova.network-information"/>
+  <gap:plugin name="cordova-plugin-file" source="npm"/>
+  <access origin="*"/>
+  <plugin name="cordova-plugin-whitelist" version="1"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+</widget>
